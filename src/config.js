@@ -1,7 +1,7 @@
 export const COLUMN_OPTIONS = [
   { value: "", label: "Select Status", isDisabled: true },
   
-  { value: "todo", label: "TODO" },
+  { value: "start", label: "start" },
   { value: "doing", label: "In Progress" },
   { value: "done", label: "Complete" },
 ];
@@ -19,7 +19,7 @@ export const DEFAULT_CARDS = [
   {
     title: "Practice HTML",
     id: "1",
-    column: "todo",
+    column: "start",
     assignee: "harikrishna",
     description:
       "Learn Html and build more web pages",
@@ -27,7 +27,7 @@ export const DEFAULT_CARDS = [
   {
     title: "Practice CSS",
     id: "2",
-    column: "todo",
+    column: "start",
     assignee: "anil",
     description:
       "Learn css and styles the  more web pages",
@@ -35,7 +35,7 @@ export const DEFAULT_CARDS = [
   {
     title: "Practice JavaScript",
     id: "3",
-    column: "todo",
+    column: "start",
     assignee: "naveen",
     description:
       "Practice javascript to improve user experiance and make web pages more interactive.",

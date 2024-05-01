@@ -4,10 +4,10 @@ export const DEFAULT_CARDS = [
     {
       title: "Practice HTML",
       id: "5",
-      column: "todo",
+      column: "start",
     },
-    { title: "Practice CSS", id: "6", column: "todo" },
-    { title: "Practice Javscript ", id: "7", column: "todo" },
+    { title: "Practice CSS", id: "6", column: "start" },
+    { title: "Practice Javscript ", id: "7", column: "start" },
   
     // DOING
     {

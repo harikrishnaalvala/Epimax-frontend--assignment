@@ -39,7 +39,7 @@ const Board = () => {
         
         <Column
           title="Start"
-          column="todo"
+          column="start"
           headingColor="text-yellow-200"
           cards={cards}
           setCards={setCards}
@@ -96,7 +96,7 @@ const Board = () => {
 const getMetricsData = (cards) => {
   const columnCounts = {
 
-    todo: 0,
+    start: 0,
     doing: 0,
     done: 0,
   };
